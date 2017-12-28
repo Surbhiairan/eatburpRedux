@@ -29,11 +29,98 @@ class SearchSuggestionScreen extends React.Component{
             underlineButton2: false,
             searchedFood: [],
             searchedPlace: [],
+            foodFromApi:[],
+            restaurantFromApi:[],
          };
     }
      
+    componentDidMount(){
+
+        this.fetchFood().then((data) => {
+            this.setState({
+                foodFromApi : data
+            },function() {
+                console.log(this.state.foodFromApi,"set in state");
+              });
+          });
+
+        this.fetchRestaurants().then((place) => {
+            this.setState({
+                restaurantFromApi : place
+            }, function() {
+                console.log("place set in state", this.state.restaurantFromApi)
+            });
+        });
+
+        /* if(this.state.underlineButton1){
+            return fetch('http://192.168.100.8:3000/searchItem')
+            .then((response) => response.json())
+            .then((responseJson) => {
+                this.setState({
+                    foodFromApi : responseJson.docs
+                  }, function() {
+                    console.log(this.state.foodFromApi,"set in state");
+                  });
+              console.log("response from api",responseJson.docs[0]);          
+            })
+            .catch((error) => {
+              console.error(error);
+            });
+        } else {
+            return fetch('http://192.168.100.8:3000/searchResto')
+            .then((response) => response.json())
+            .then((responseJson) => {
+                this.setState({
+                    restaurantFromApi : responseJson.docs
+                  }, function() {
+                    console.log(this.state.restaurantFromApi,"set in state");
+                  });
+              console.log("response from restaurant api",responseJson.docs[0]);          
+            })
+            .catch((error) => {
+              console.error(error);
+            });
+        } */
+        
+    }
+
+    fetchFood = () => {
+        return fetch('http://192.168.100.8:3000/searchItem')
+        .then((response) => response.json())
+        .then((responseJson) => {
+            /* this.setState({
+                foodFromApi : responseJson.docs
+              }, function() {
+                console.log(this.state.foodFromApi,"set in state");
+              }); */
+          console.log("response from api",responseJson.docs[0]);      
+          return responseJson.docs    
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    }
+
+    fetchRestaurants = () =>{
+        return fetch('http://192.168.100.8:3000/searchResto')
+        .then((response) => response.json())
+        .then((responseJson) => {
+            /* this.setState({
+                restaurantFromApi : responseJson.docs
+              }, function() {
+                console.log(this.state.restaurantFromApi,"set in state");
+              }); */
+          console.log("response from restaurant api",responseJson.docs[0]);  
+          return responseJson.docs        
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    }
     
     search = (searchedText) => {
+
+        
 
         //todo: make it work with this.props.dispatch
         //console.log(searchAction(searchedText));
@@ -42,7 +129,10 @@ class SearchSuggestionScreen extends React.Component{
         console.log(searchedText)
         if(this.state.underlineButton1)
          {
-            console.log(searchedText,'first condition')
+            console.log(searchedText,'first condition');
+
+            var food = this.state.foodFromApi;
+            console.log("foooooooooooood",food);
             
             var searchedFood = food.filter(function(food) {
               return food.name.toLowerCase().indexOf(searchedText.toLowerCase()) > -1;
@@ -52,6 +142,9 @@ class SearchSuggestionScreen extends React.Component{
          }
          else{
             console.log(searchedText,'second condition')
+
+            var place = this.state.restaurantFromApi;
+            console.log("placessssssssss", place);
             var searchedPlace = place.filter(function(place) {
                 return place.name.toLowerCase().indexOf(searchedText.toLowerCase()) > -1;
               });
@@ -74,7 +167,7 @@ class SearchSuggestionScreen extends React.Component{
               style={styles.listItemText}
               onPress={() => this._handlePressPlace(place)}
             >
-            {place.name}, {place.location}</Text>
+            {place.name}, {place.address.locality}</Text>
           </View>
         );
     };

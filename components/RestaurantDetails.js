@@ -32,7 +32,7 @@ export default class RestaurantDetails extends React.Component{
 
     render = () => {
         let restaurant = this.props.restaurant;
-        console.log("summary----------", restaurant.bestDishes)
+        console.log("summary----------", restaurant.famousFor)
         
         return(
             <View>
@@ -41,8 +41,8 @@ export default class RestaurantDetails extends React.Component{
                 </View>
                 <View>
                     <RestaurantDetailsCard/>
-                    <SummaryCard text = {restaurant.summary}/>
-                    <BestDishCard dishes = {restaurant.bestDishes}/>
+                    <SummaryCard text = {restaurant.address.building}/>
+                    <BestDishCard dishes = {restaurant.famousFor}/>
                     <RatingCard/>
                     <MenuCard/>
                     <PhotoCard/>

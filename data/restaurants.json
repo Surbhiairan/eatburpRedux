@@ -1,0 +1,241 @@
+{     
+        "restaurant_id": 1,
+        "name": "Tinku's Everfresh",
+        "address": {
+          "building": "G-34, City Centre", 
+          "coord": [22.7211958,75.87413420000007], 
+          "street": "M G Road", 
+          "locality": "Sanghi Colony, South Tukoganj",
+          "zipcode": 452001
+          },
+         "phone":"09893378883",
+         "avg_cost_two":200,
+         "openTime":"11:00",
+         "closeTime":"23:00",
+         "category":["pocket-friendly","cafe"],
+         "famousFor":["cold-coffee", "cheese-chutney-sandwich","baked-samosa"]}
+    {     
+    "restaurant_id": 15,
+    "name": "Tinku's Everfresh",
+    "address": {
+      "building": "A 13 & 14", 
+      "coord": [22.7567428, 75.88734399999998], 
+      "street": "Ganesh Nagar, Scheme No.54", 
+      "locality": "Vijaynagar",
+      "zipcode": 452010
+      },
+     "phone":"09893378883",
+     "avg_cost_two":200,
+     "openTime":"11:00",
+     "closeTime":"23:00",
+     "category":["pocket-friendly","cafe"],
+     "famousFor":["cold-coffee", "cheese-chutney-sandwich","baked-samosa"]
+    }
+{   "restaurant_id": 2,
+  "name": "Cakesmith's Alley",
+  "address": {
+    "building": "Shop no.8", 
+    "coord": [22.761304,75.88754900000004], 
+    "street": "Aranya nagar, Scheme Number 78", 
+    "locality": "Vijaynagar",
+    "zipcode": 452001
+    },
+   "phone":"09893378883",
+   "avg_cost_two":400,
+   "openTime":"11:00",
+   "closeTime":"22:00",
+   "category":["desserts","cafe"],
+   "famousFor":["wood-fired-pizza", "mud-cake"]
+}
+{   "restaurant_id": 3,
+  "name": "Chai Sutta Bar",
+  "address": {
+    "building": "125", 
+    "coord": [22.6916892,75.86600909999993], 
+    "street": "Vishnu Puri Colony", 
+    "locality": "Bhawarkua square near gurjar hospital",
+    "zipcode": 452001
+    },
+   "phone":"09893378883",
+   "avg_cost_two":200,
+   "openTime":"11:00",
+   "closeTime":"23:00",
+   "category":["pocket-friendly","cafe"],
+   "famousFor":["tea", "sandwich"]
+}
+{   "restaurant_id": 4,
+    "name": "Chai Sutta Bar",
+    "address": {
+      "building": "125", 
+      "coord": [22.7563572,75.88906270000007], 
+      "street": "Scheme 54", 
+      "locality": "Vijaynagar",
+      "zipcode": 452010
+      },
+     "phone":"09893378883",
+     "avg_cost_two":100,
+     "openTime":"11:00",
+     "closeTime":"23:00",
+     "category":["pocket-friendly","cafe"],
+     "famousFor":["tea", "sandwich"]
+}
+{   "restaurant_id": 5,
+  "name": "Cafe Social",
+  "address": {
+    "building": "", 
+    "coord": [22.7136306,75.88685520000001], 
+    "street": "Navratan Bagh Rd", 
+    "locality": "Navratan Bagh",
+    "zipcode": 452001
+    },
+   "phone":"09893378883",
+   "avg_cost_two":300,
+   "openTime":"11:00",
+   "closeTime":"23:00",
+   "category":["cafe"],
+   "famousFor":["coffee", "sandwich"]
+}
+{   "restaurant_id": 6,
+  "name": "Chai Kappi",
+  "address": {
+    "building": "39", 
+    "coord": [22.7252446,75.88452099999995], 
+    "street": "Race Course Rd, Near Chappan Dukan", 
+    "locality": "New Palasia",
+    "zipcode": 452001
+    },
+   "phone":"09893378883",
+   "avg_cost_two":300,
+   "openTime":"11:00",
+   "closeTime":"23:00",
+   "category":["cafe"],
+   "famousFor":["tea", "sandwich"]
+}
+{   "restaurant_id": 7,
+  "name": "Chai Kappi",
+  "address": {
+    "building": "84", 
+    "coord": [22.7231126,75.89558080000006], 
+    "street": "Saket Nagar", 
+    "locality": "Saket Nagar",
+    "zipcode": 452018
+    },
+   "phone":"09893378883",
+   "avg_cost_two":300,
+   "openTime":"11:00",
+   "closeTime":"23:00",
+   "category":["cafe"],
+   "famousFor":["tea", "sandwich"]
+}
+{   "restaurant_id": 8,
+  "name": "Love Sugar & Dough",
+  "address": {
+    "building": "RH-14", 
+    "coord": [22.7560137,75.89405529999999], 
+    "street": "Sceme No 74 C", 
+    "locality": "Vijay Nagar",
+    "zipcode": 452010
+    },
+   "phone":"09893378883",
+   "avg_cost_two":300,
+   "openTime":"11:00",
+   "closeTime":"23:00",
+   "category":["cafe"],
+   "famousFor":["desserts"]
+}
+{   "restaurant_id": 9,
+  "name": "Make My Sandwich MMS",
+  "address": {
+    "building": "A 20-21", 
+    "coord": [22.756676,75.88722009999992], 
+    "street": "Rajat Jayanti Complex, Scheme No.54, Ganesh Nagar", 
+    "locality": "Vijay Nagar",
+    "zipcode": 452010
+    },
+   "phone":"09893378883",
+   "avg_cost_two":150,
+   "openTime":"11:00",
+   "closeTime":"23:00",
+   "category":["cafe"],
+   "famousFor":["coffee","sandwich"]
+}
+{   "restaurant_id": 10,
+  "name": "Make My Sandwich MMS",
+  "address": {
+    "building": "Royal Diamond, LG-7", 
+    "coord": [22.7228064,75.87428369999998], 
+    "street": "Yeshwant Niwas Rd", 
+    "locality": "Sanghi Colony",
+    "zipcode": 452003
+    },
+   "phone":"09893378883",
+   "avg_cost_two":150,
+   "openTime":"11:00",
+   "closeTime":"23:00",
+   "category":["cafe"],
+   "famousFor":["coffee","sandwich"]
+}
+{   "restaurant_id": 11,
+  "name": "Cravingz",
+  "address": {
+    "building": "Shop No. 102, 3/5, Gold Stone Building", 
+    "coord": [22.7267218,75.88422059999994], 
+    "street": "Lala Banarasilal Dawar Marg, Near Divine Jewellers", 
+    "locality": "New Palasia",
+    "zipcode": 452001
+    },
+   "phone":"09893378883",
+   "avg_cost_two":150,
+   "openTime":"11:00",
+   "closeTime":"23:00",
+   "category":["cafe"],
+   "famousFor":["coffee","sandwich"]
+}
+{   "restaurant_id": 12,
+  "name": "KYRO",
+  "address": {
+    "building": "Fortune Aura Rooftop", 
+    "coord": [22.6951295,75.86598219999996], 
+    "street": "Bhawarkuan Main Road", 
+    "locality": "Transport Nagar",
+    "zipcode": 452014
+    },
+   "phone":"09893378883",
+   "avg_cost_two":150,
+   "openTime":"11:00",
+   "closeTime":"23:00",
+   "category":["fine-dining"],
+   "famousFor":[]
+}
+{   "restaurant_id": 13,
+  "name": "Quorum Lounge",
+  "address": {
+    "building": "H/1", 
+    "coord": [22.756459,75.88499109999998], 
+    "street": "Scheme No.54, Part II", 
+    "locality": "Vijay Nagar",
+    "zipcode": 452010
+    },
+   "phone":"09893378883",
+   "avg_cost_two":1500,
+   "openTime":"11:00",
+   "closeTime":"23:00",
+   "category":["fine-dining","club"],
+   "famousFor":[]
+}
+{   "restaurant_id": 14,
+  "name": "Effotel",
+  "address": {
+    "building": "Plot No. 10-C/ C.A", 
+    "coord": [22.750992,75.90311199999996], 
+    "street": "Scheme No. 94, Scheme 94 Sector", 
+    "locality": "Vijay Nagar",
+    "zipcode": 452010
+    },
+   "phone":"09893378883",
+   "avg_cost_two":1500,
+   "openTime":"11:00",
+   "closeTime":"23:00",
+   "category":["fine-dining"],
+   "famousFor":[]
+}

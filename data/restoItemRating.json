@@ -1,0 +1,238 @@
+{
+    "id": 1,
+    "resto_id": 1,
+    "item_id": 1,
+    "cost": 50,
+    "avg_rating": 4.2
+}
+{
+    "id": 2,
+    "resto_id": 1,
+    "item_id": 2,
+    "cost": 60,
+    "avg_rating": 4.3
+}
+{
+    "id": 3,
+    "resto_id": 1,
+    "item_id": 3,
+    "cost": 50,
+    "avg_rating": 3.5
+}
+{
+    "id": 4,
+    "resto_id": 1,
+    "item_id": 4,
+    "cost": 60,
+    "avg_rating": 4.0
+}
+{
+    "id": 5,
+    "resto_id": 1,
+    "item_id": 5,
+    "cost": 40,
+    "avg_rating": 4.3
+}
+{
+    "id": 6,
+    "resto_id": 1,
+    "item_id": 6,
+    "cost": 40,
+    "avg_rating": 4.3
+}
+{
+    "id": 7,
+    "resto_id": 1,
+    "item_id": 7,
+    "cost": 40,
+    "avg_rating": 3.8
+}
+{
+    "id": 8,
+    "resto_id": 1,
+    "item_id": 8,
+    "cost": 40,
+    "avg_rating": 4.1
+}
+{
+    "id": 9,
+    "resto_id": 1,
+    "item_id": 9,
+    "cost": 50,
+    "avg_rating": 4.3
+}
+{
+    "id": 10,
+    "resto_id": 1,
+    "item_id": 10,
+    "cost": 60,
+    "avg_rating": 4.3
+}
+{
+    "id": 11,
+    "resto_id": 1,
+    "item_id": 11,
+    "cost": 70,
+    "avg_rating": 4.3
+}
+{
+    "id": 12,
+    "resto_id": 1,
+    "item_id": 12,
+    "cost": 80,
+    "avg_rating": 3.8
+}
+{
+    "id": 13,
+    "resto_id": 1,
+    "item_id": 13,
+    "cost": 100,
+    "avg_rating": 4.3
+}
+{
+    "id": 14,
+    "resto_id": 1,
+    "item_id": 14,
+    "cost": 70,
+    "avg_rating": 4.3
+}
+{
+    "id": 15,
+    "resto_id": 1,
+    "item_id": 15,
+    "cost": 70,
+    "avg_rating": 4.2
+}
+{
+    "id": 16,
+    "resto_id": 1,
+    "item_id": 16,
+    "cost": 70,
+    "avg_rating": 4.8
+}
+{
+    "id": 17,
+    "resto_id": 1,
+    "item_id": 17,
+    "cost": 90,
+    "avg_rating": 4.3
+}
+{
+    "id": 18,
+    "resto_id": 1,
+    "item_id": 18,
+    "cost": 90,
+    "avg_rating": 4.5
+}
+{
+    "id": 19,
+    "resto_id": 1,
+    "item_id": 19,
+    "cost": 70,
+    "avg_rating": 4.3
+}
+{
+    "id": 20,
+    "resto_id": 1,
+    "item_id": 20,
+    "cost": 80,
+    "avg_rating": 4.3
+}
+{
+    "id": 21,
+    "resto_id": 2,
+    "item_id": 5,   
+    "cost": 55,
+    "avg_rating": 4.5
+}
+{
+    "id": 22,
+    "resto_id": 2,
+    "item_id": 21,
+    "cost": 65,
+    "avg_rating": 4
+}
+{
+    "id": 23,
+    "resto_id": 3,
+    "item_id": 24,
+    "cost": 20,
+    "avg_rating": 3.0
+}
+{
+    "id": 24,
+    "resto_id": 3,
+    "item_id": 26,
+    "cost": 50,
+    "avg_rating": 4.1
+}
+{ 
+    "id": 25,
+    "resto_id": 3,
+    "item_id": 1,       
+    "cost": 50,
+    "avg_rating": 3.5
+}
+{ 
+    "id": 26,
+    "resto_id": 3,
+    "item_id": 4,       
+    "cost": 70,
+    "avg_rating": 3.2
+}
+{
+    "id": 31,
+    "resto_id": 1,
+    "item_id": 21,
+    "cost": 90,
+    "avg_rating": 4.3
+}
+{
+    "id": 32,
+    "resto_id": 1,
+    "item_id": 22,
+    "cost": 70,
+    "avg_rating": 4.5
+}
+{
+    "id": 33,
+    "resto_id": 1,
+    "item_id": 23,
+    "cost": 100,
+    "avg_rating": 4.7
+}
+{
+    "id": 34,
+    "resto_id": 1,
+    "item_id": 24,
+    "cost": 30,
+    "avg_rating": 4.3
+}
+{
+    "id": 35,
+    "resto_id": 1,
+    "item_id": 25,
+    "cost": 40,
+    "avg_rating": 3.6
+}
+{
+    "id": 36,
+    "resto_id": 1,
+    "item_id": 26,
+    "cost": 40,
+    "avg_rating": 4.9
+}
+{
+    "id": 37,
+    "resto_id": 1,
+    "item_id": 27,
+    "cost": 50,
+    "avg_rating": 4.1
+}
+{
+    "id": 38,
+    "resto_id": 1,
+    "item_id": 28,
+    "cost": 70,
+    "avg_rating": 4.3
+}

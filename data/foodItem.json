@@ -1,0 +1,287 @@
+{
+    "item_id": 1,
+    "name": "Plain French Fries",
+    "cuisine": "Snacks",
+    "tags": ["Fried", "Veg", "finger food"]
+}
+{
+    "item_id":2,
+    "name":"Masala French Fries",
+    "cuisine":"Snacks",
+    "tags":[
+        "Fried",
+        "Veg",
+        "finger food"
+    ]
+}
+{
+    "item_id":3,
+    "name": "Potato Pops",
+    "cuisine": "Snacks",
+    "tags":[
+        "Fried",
+        "Veg",
+        "finger food"
+    ]
+}
+{
+    "item_id":4,
+    "name": "Potato Cheese Shots",
+    "cuisine": "Snacks",
+    "tags":[
+        "Fried",
+        "Veg",
+        "finger food",
+        "Cheese"
+    ]
+}
+{
+    "item_id":5,
+    "name": "Vegetable Sandwich",
+    "cuisine": "Snacks",
+    "tags":[
+        "Veg",
+        "Sandwich"
+    ]
+}
+{
+    "item_id":6,
+    "name": "Baby Sandwich",
+    "cuisine":"Snacks",
+    "tags":[
+        "Sandwich",
+        "Veg"
+    ]
+}
+{
+    "item_id":7,
+    "name": "Jain Sandwich",
+    "cuisine":"Snacks",
+    "tags":[
+        "Sandwich",
+        "Veg",
+        "Jain"
+    ]
+}
+{
+    "item_id":8,
+    "name": "Masala Sandwich",
+    "cuisine":"Snacks",
+    "tags":[
+        "Sandwich",
+        "Veg",
+        "Masala"
+    ]
+}
+{
+    "item_id":9,
+    "name": "Bombay Kachcha",
+    "cuisine":"Snacks",
+    "tags":[
+        "Sandwich",
+        "Veg",
+        "Kachcha"
+    ]
+}
+{
+    "item_id":10,
+    "name":"Vegetable Corn Sandwich",
+    "cuisine":"Snacks",
+    "tags":[
+        "Veg",
+        "Sandwich",
+        "Corn"
+    ]
+}
+{
+    "item_id":11,
+    "name": "Mayonnaise Corn Sandwich",
+    "cuisine":"Snacks",
+    "tags":[
+        "Corn",
+        "Sandwich",
+        "Veg"
+    ]
+}
+{
+    "item_id":12,
+    "name": "Veg Cheese Corn Sandwich",
+    "cuisine":"Snacks",
+    "tags":[
+        "Corn",
+        "Sandwich",
+        "Veg",
+        "Cheese"
+    ]
+}
+{
+    "item_id":13,
+    "name": "Cheese Corn Pizza Sandwich",
+    "cuisine": "Snacks",
+    "tags":[
+        "Corn",
+        "Veg",
+        "Sandwich",
+        "Cheese"
+    ]
+}
+{
+    "item_id":14,
+    "name": "Masala Cheese",
+    "cuisine":"Snacks",
+    "tags":[
+        "Veg",
+        "Sandwich",
+        "Masala",
+        "Cheese"
+    ]
+}
+{
+    "item_id":15,
+    "name": "Paneer Masala",
+    "cuisine":"Snacks",
+    "tags":[
+        "Veg",
+        "Sandwich",
+        "Masala",
+        "Paneer"
+    ]
+}
+{
+    "item_id":16,
+    "name": "Masala Special",
+    "cuisine": "Snacks",
+    "tags":[
+        "Veg",
+        "Sandwich",
+        "Masala"
+    ]
+}
+{
+    "item_id":17,
+    "name": "Paneer Masala Cheese",
+    "cuisine":"Snacks",
+    "tags":[
+        "Cheese",
+        "Veg",
+        "Sandwich",
+        "Paneer",
+        "Masala"
+    ]
+}
+{
+    "item_id":18,
+    "name": "Yummy Masala",
+    "cuisine": "Snacks",
+    "tags":[
+        "Veg",
+        "Sandwich",
+        "Masala"
+    ]
+}
+{
+    "item_id":19,
+    "name": "Vegetable Club",
+    "cuisine":"Snacks",
+    "tags":[
+        "Veg",
+        "Sandwich",
+        "Club"
+    ]
+}
+{
+    "item_id":20,
+    "name": "Masala Club",
+    "cuisine":"Snacks",
+    "tags":[
+        "Veg",
+        "Sandwich",
+        "Club",
+        "Masala"
+    ]
+}
+{
+    "item_id":21,
+    "name": "Veg Cheese Club",
+    "cuisine":"Snacks",
+    "tags":[
+        "Club",
+        "Cheese",
+        "Veg",
+        "Sandwich"
+    ]
+}
+{
+    "item_id":22,
+    "name": "Veg Paneer Club",
+    "cuisine":"Snacks",
+    "tags":[
+        "Paneer",
+        "Sandwich",
+        "Veg",
+        "Club"
+    ]
+}
+{
+    "item_id":23,
+    "name": "Masala Cheese Club",
+    "cuisine":"Snacks",
+    "tags":[
+        "Cheese",
+        "Club",
+        "Veg",
+        "Sandwich",
+        "Masala"
+    ]
+}
+{
+    "item_id":24,
+    "name": "Espresso Coffee",
+    "cuisine": "Beverages",
+    "tags":[
+        "Veg",
+        "Coffee",
+        "Hot"
+    ]
+}
+{
+    "item_id":25,
+    "name": "Hot Chocolate",
+    "cuisine":"Beverages",
+    "tags":[
+        "Coffee",
+        "Hot",
+        "Veg"
+    ]
+}
+{
+    "item_id":26,
+    "name":"Cold Coffee",
+    "cuisine":"Beverages",
+    "tags":[
+        "Cold",
+        "Coffee",
+        "Veg"
+    ]
+}
+{
+    "item_id":27,
+    "name": "Dark Cold Coffee",
+    "cuisine": "Beverages",
+    "tags": [
+        "Coffee",
+        "Cold",
+        "Veg"
+    ]
+}
+{
+    "item_id":28,
+    "name": "Caramel Cold Coffee",
+    "cuisine":"Beverages",
+    "tags":[
+        "Coffee",
+        "Cold",
+        "Veg",
+        "Caramel"
+    ]
+}
